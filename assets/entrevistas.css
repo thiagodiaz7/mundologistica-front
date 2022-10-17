@@ -1,0 +1,102 @@
+/*Geral*/
+.mld-interview--content-card {
+    border-radius:5px;
+    padding:20px;
+    text-align: center;
+    margin-top:20px;   
+    position:relative;
+    -webkit-transition:all .2s ease-in-out;
+    margin-bottom:20px;
+}
+
+.mld-interview--content-card:hover {
+    background:#FF871E;
+    color:#fff;
+    border:1px solid #FF871E!important;
+    margin-top:-3px;
+    -webkit-transition:all .2s ease-in-out;
+    cursor:pointer;
+}
+
+.mld-interview--content-card:hover .mld-interview-content-card-roll ,
+.mld-interview--content-card:hover .mld-interview-content-card-action-link {
+    color:#fff;
+}
+
+.mld-interview--content-card:hover .mld-interview-content-card-action-link {
+    background:url("../assets/images/icons/icon-arrow-forward-white.svg") right 8px no-repeat;
+    width:90%;
+}
+
+.mld-interview--content-card-cat {
+    border-radius:100px;
+    background:#06D6A0;
+    color:#fff;
+    text-transform: uppercase;
+    font-size:.9em;
+    font-weight: 700;
+    display: inline-block;
+    padding:2px 15px;
+    position:absolute;
+    right:18px;
+}
+
+.mld-interview--content-card-name {
+    text-transform: uppercase;
+    font-size:1.1em;
+    font-weight: 500;
+    margin:10px 0 5px 0;
+}
+
+.mld-interview-content-card-roll {
+    font-weight: 600;
+    margin-bottom:20px;
+}
+
+.mld-interview-content-card-title {
+    font-size:1.3em;
+    font-weight: 600;
+}
+
+.mld-interview-content-card-action-link {
+    color:#FF871E;
+    text-decoration: none;
+    font-size:1.2em;
+    font-weight: 600;
+    background:url("../assets/images/icons/icon-arrow-forward-orange.svg") right 8px no-repeat;
+    width:33%;
+    display:inline-block;
+    -webkit-transition:all .2s ease-in-out;
+}
+
+/*Black Mode*/
+.mld-black-mode .mld-interview--content-card {
+    border:1px solid #313131;
+}
+
+.mld-black-mode .mld-interview-content-card-roll {
+    color:#878787;
+}
+
+
+
+/*White Mode*/
+
+.mld-white-mode .mld-interview--content-card {
+    border:1px solid #E2E2E2;
+}
+
+.mld-white-mode .mld-interview-content-card-roll {
+    color:#878787;
+}
+
+
+
+
+
+@media (max-width: 767px) {
+
+    .mld-interview-content-card-action-link {
+        width:50%;
+    }
+}
